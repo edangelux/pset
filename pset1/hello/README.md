@@ -1,4 +1,4 @@
-# Reporte de Hello:tw-1f634:
+# Reporte de Hello:yellow_heart: :alien:`
 el fin del programa es que coloquemos el nombre y retorne con un saludo hacia el nombre de la persona
 
 se ingresa librerias como `stdio.h` y `cs50.h` la libreria principal del curso
