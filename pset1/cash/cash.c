@@ -10,30 +10,30 @@ int calculate_pennies(int cents);
 
 int main(void)
 {
-    // Ask how many cents the customer is owed
+    // Pregunte cuántos centavos le deben al cliente
     int cents = get_cents();
     
 
-    // Calculate the number of quarters to give the customer
+    // Calcular el número de cuartos para dar al cliente
     int quarters = calculate_quarters(cents);
     cents = cents - quarters * 25;
 
-    // Calculate the number of dimes to give the customer
+    // Calcular la cantidad de monedas de diez centavos para darle al cliente
     int dimes = calculate_dimes(cents);
     cents = cents - dimes * 10;
 
-    // Calculate the number of nickels to give the customer
+    // Calcular el número de monedas de cinco centavos para dar al cliente
     int nickels = calculate_nickels(cents);
     cents = cents - nickels * 5;
 
-    // Calculate the number of pennies to give the customer
+    // Calcular la cantidad de centavos para darle al cliente
     int pennies = calculate_pennies(cents);
     cents = cents - pennies * 1;
 
-    // Sum coins
+    // Sumar monedas
     int coins = quarters + dimes + nickels + pennies;
 
-    // Print total number of coins to give the customer
+    // Imprime el número total de monedas para darle al cliente
     printf("%i\n", coins);
 }
 
