@@ -8,6 +8,6 @@ se trata de un programa  que calcula el vuelto del cliente en monedas de centavo
 
 3) abajo del codigo que esta dentro de `int main` colocaremos las validaciones matematicas de cada moneda para asi tener un resultado correcto con una matematica simple de division
 
-4)tendremos 4 codigos condicionales para calcular el dinero minimo que le podemos dar al cliente en cada codigo condicional tienen codigo valor fijo
+4) tendremos 4 codigos condicionales para calcular el dinero minimo que le podemos dar al cliente en cada codigo condicional tienen codigo valor fijo
 
 5) al haber pasado el numero de vuelto del cliente por cada monera se hara una variable para sumar todas las monedas que se tienen que entregar al cliente para minimizar el gasto de las monedas, y luego se imprimira el resultado al usuario con un `printf`
