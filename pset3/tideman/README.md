@@ -4,7 +4,7 @@ tideman es posiblemente un sistema mejorado de runoff de la eleciones preferenci
 
 1) se usara 4 librerias `cs50.h` `stdio.h` `string.h` `stdlib.h`, comprobaremos que cada voto sea un voto transparente en elegir un candidato en cada rango, actualizaremos los rangos por cada nuevo voto, se estara actualizando al matriz de preferencia cuando se guarden los votos 
 
-2) si existe la posibilidad que haya par de candidatos ganadores, aca tomaremos la tarea de romper el ciclo que se haria futuramente, nos daremos cuenta por `pairs` 
+2)  `pairs` juntara a cada pareja de candidates para que luego  `comparar` pueda determinar un rango decreciente
 
 3) `comparar` que lo que hara es encontrar un ganador dependiendo de cuanto gente apoya a cierto candidato, me refiero cuantos votantes tienen como primer rango preferido a ese candidato si existe una mayoria
 
