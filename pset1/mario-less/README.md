@@ -1,4 +1,4 @@
-#Mario-less :outbox_tray:
+# Mario-less :outbox_tray:
 
 la funcion de mario es hacer una piramide y el usuario elegi el tamaño de la piramide hasta el tamaño 8
 
