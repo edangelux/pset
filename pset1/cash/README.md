@@ -1,21 +1,13 @@
-# Cash
+# CASH:money_mouth_face:
 
-To submit this problem:
+se trata de un programa  que calcula el vuelto del cliente en monedas de centavos, cada moneda tiene una validacion de 10 centavos a 1 centavo
 
-* In your Codespace, run `submit50 PROBLEM`, replacing `PROBLEM` with `cash`.
+1) inplementamos las 2 librerias `cs50.h` y `stdio.h`
 
-If you're getting an error such as:
+2) creamos 5 variables globales, 4 de esas variables seran el valor de los centavos que seran `int`. La ultiam variable que quede es el tomara de cuanto sera el vuelto de la persona
 
-```
-Please make sure you have the correct access rights and the repository exists.
-Failed to clone "git@github.com:/classroom50/cash-USERNAME".
-```
+3) abajo del codigo que esta dentro de `int main` colocaremos las validaciones matematicas de cada moneda para asi tener un resultado correcto con una matematica simple de division
 
-Make sure you've accepted the assignment on GitHub classroom!
+4) tendremos 4 codigos condicionales para calcular el dinero minimo que le podemos dar al cliente en cada codigo condicional tienen codigo valor fijo
 
-Once you have submitted this problem, your score will be available on GitHub after a few minutes. To view your score:
-
-* On the GitHub page https://github.com/classroom50/cash-USERNAME where `USERNAME` is your GitHub username, click the **Actions** tab.
-* Under **All workflows**, click the title of the topmost workflow.
-* Click **Autograding** and then **Render results**.
-* Once the autograder is done running, you will see a ✅ next to each check that your submission passed and a ❌ next to each check that your submission did not pass. You may resubmit this assignment as many times as you would like prior to this assignment's deadline.
+5) al haber pasado el numero de vuelto del cliente por cada monera se hara una variable para sumar todas las monedas que se tienen que entregar al cliente para minimizar el gasto de las monedas, y luego se imprimira el resultado al usuario con un `printf`
