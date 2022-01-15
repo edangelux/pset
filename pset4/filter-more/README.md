@@ -1,4 +1,4 @@
-# FILTER-MORE:camara_flash:
+# FILTER-MORE:camera_flash:
 
 filter-more tendra las mismas funciones que filter-less pero tendra unas agradas como veran ahorita
 
