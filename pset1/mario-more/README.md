@@ -1,4 +1,4 @@
-## mario-more :outbox_tray:
+# mario-more :outbox_tray:
 
 la funcion de mario-more es la misma de la funcion de mario-less solo que esta vez ademas de poner una piramide sera colocar otra piramide en viceversa.
 
