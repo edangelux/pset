@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+<div id="overlay">
+    <strong><p>Symbol</p></strong>
+    <strong><p>Name</p></strong>
+    <strong><p>Shares</p></strong>
+    <strong><p>Price</p></strong>
+    <strong><p>Transacted</p></strong>
+</div>
+<hr class="up_">
+
+{% for i in historial %}
+    <div id="overlay">
+        <p>{{ i["symbol"] }}</p>
+        <p>{{ i["name"] }}</p>
+        <p>{{ i["shares"] }}</p>
+        <p>{{ i["price"] | usd }}</p>
+        <p>{{ i["date"] }}</p>
+    </div>
+    <hr>
+{% endfor %}
+{% endblock %}

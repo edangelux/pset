@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+
+<div id="overlay">
+    <strong><p>Symbol</p></strong>
+    <strong><p>Name</p></strong>
+    <strong><p>Shares</p></strong>
+    <strong><p>Price</p></strong>
+    <strong><p>Total</p></strong>
+</div>
+
+<hr class="up_">
+
+{% for i in mostrar %}
+    <div id="overlay">
+        <p>{{ i["symbol"]}}</p>
+        <p>{{ i["name"]}}</p>
+        <p>{{ i["shares"]}}</p>
+        <p>{{ i["price"] | usd }}</p>
+        <p>{{ i["total"] | usd }}</p>
+    </div>
+    <hr>
+{% endfor %}
+
+<div id="under">
+        <p id="item-1">Cash</p>
+        <p id="item-2">{{ cash | usd }}</p>
+        <p id="item-3">Total</p>
+        <p id="item-4">{{ total | usd }}</p>
+    </div>
+
+{% endblock %}

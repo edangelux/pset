@@ -1,0 +1,86 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+/* colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+#overlay {
+      display: grid;
+      grid-template-columns: repeat(4,1fr) 2fr;
+      grid-template-rows: 1fr;
+      grid-gap: 100px;
+      justify-content: space-around;
+
+}
+
+.up_{
+    border: 1px solid black;
+}
+
+#under {
+    display: grid;
+    grid-column-gap: 100px;
+    grid-template-columns: repeat(4,1fr) 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#item-1{
+    grid-row: 1;
+    font-weight: bold;
+    grid-column: 4;
+}
+#item-2{
+    grid-row: 1;
+    grid-column: 5;
+}
+#item-3{
+    grid-row: 2;
+    font-weight: bold;
+    grid-column: 4;
+}
+#item-4{
+    grid-row: 2;
+    grid-column: 5;
+}

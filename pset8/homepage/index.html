@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <link href="css/style.css" rel="stylesheet">
+  <title>pagina X</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col mr-auto">
+          <a href="index.html" class="header-logo col"> cs50X</a>
+        </div>
+        <nav class="header-menu">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="home-about animation">
+      <div class="container justify-content-center">
+        <div class="row animation">
+          <div class="col-6 mr-auto">
+            <p>Me llamo</p>
+            <h1>Eddy Torrez</h1>
+            <p class="mb-4">Hola me llamo Eddy Torrez me gusta descubrir cosas, me adapto a aprender sobre programacion, quisiera crear robots en un futuro, me gusta escuchar bad bunny </p>
+            <div class="text-center">
+              <a href="about.html" class="btn">About Me</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <img src="img/yo.png" alt="Me">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="home-projects animation-2">
+      <div class="container ">
+        <h2>Reciente proyecto</h2>
+        <div class="row justify-content-center">
+          <div class="col-4"><img src="img/proyect.png" alt="project"></div>
+          <div class="col-6">
+            <h3>Pacman en unity</h3>
+            <p>mi primer juego hecho con tutorias de cs50, pase una semana haciendolo aprendiendo sobre el programa de creacion de juegos de unity, creando una version de pacman fail? pero algun dia lo perfecionare y lo podre jugar a mi pasatiempo en el celular. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class=" container">
+      <div class="row">
+        <div class="col-3 mr-auto">
+          <p>&copy;edicito</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    $(".animation").delay(100).animate({ opacity: 1 }, 700);
+    $(".animation-2").delay(1000).animate({ opacity: 1 }, 700);
+  </script>
+</body>
+
+</html>
