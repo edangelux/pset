@@ -1,2 +1,3 @@
-# pset
-psetcs50 ciclo2022
+# sentimental-hello
+es lo mismo que hello en c 
+
